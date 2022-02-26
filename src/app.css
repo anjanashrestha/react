@@ -1,0 +1,108 @@
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.appli{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+}
+.main{
+  background-image: url("./Components/bg.jpg");
+}
+.profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+form{
+  background-color: aliceblue;
+  padding: 0px 40px;
+  border-radius: 15px;
+
+}
+h1{
+  color: rgb(66, 65, 63);
+  text-align:center;
+  margin-top: 5px ;
+  margin-bottom: 0px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  padding-right: 10px;
+  
+}
+
+.butto{
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  background-color: burlywood;
+  color: rgb(61, 60, 59);
+  border-radius:5px ;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.btn{
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  background-color: burlywood;
+  color: rgb(61, 60, 59);
+  border-radius:5px ;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.logout{
+
+  height: 25px;
+  padding: 2px;
+  border: none;
+  background-color:rgb(81, 81, 207);
+
+  color:rgb(61, 60, 59);
+  border-radius:5px ;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.log{
+  color: rgb(66, 65, 63);
+  text-align:center;
+  margin-top: 10px ;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+}
+.errors{
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+}
